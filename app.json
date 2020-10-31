@@ -1,0 +1,12 @@
+{
+  "name": "Barber",
+  "displayName": "Barber",
+  "expo": {
+    "name": "Barber",
+    "slug": "Barber",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
