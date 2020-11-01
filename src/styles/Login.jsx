@@ -30,6 +30,7 @@ export const Date = styled.TextInput({
 })
 
 export const Keyboard = styled.KeyboardAvoidingView({
+    flex:1,
     alignSelf: "center",
         opacity: 2,
         marginTop: 50,
