@@ -1,13 +1,18 @@
-import React from 'react'
-import {View, Text} from 'react-native'
+import React, {useState} from 'react'
+import {View, Text, TextInput} from 'react-native'
 
 const Agendamento = () => {
-
+    const [texto, novoTexto] = useState(" ")
     return(
-        <View>
-            <Text>
-                logado com sucesso!
-            </Text>
+        <View style = { {backgroundColor: "gray"} }>
+            <TextInput 
+            placeholder = "aperte" 
+            placeholderTextColor = "green"
+            onChangeText = {text => novoTexto(text)}>
+            </TextInput>
+
+            <Text>{texto}</Text>
+
         </View>
     )
 

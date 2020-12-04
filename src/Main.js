@@ -16,7 +16,7 @@ class Main extends React.Component {
         return(
             <NavigationContainer>
                 
-                <Stack.Navigator initialRouteName="Login">
+                <Stack.Navigator initialRouteName="Agendamento">
 
                         <Stack.Screen name= "Barber app" component={Login}/>
                         <Stack.Screen name = "Agendamento" component={Agendamento}/>
